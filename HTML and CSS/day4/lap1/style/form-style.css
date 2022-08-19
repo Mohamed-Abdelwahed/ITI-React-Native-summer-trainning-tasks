@@ -1,0 +1,55 @@
+.form_main{
+    height: auto;
+}
+
+form{
+    /* float: left; */
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    /* padding: 100px; */
+}
+form .part-section-form{
+    width: 100%;
+    margin: 2% 0 ;
+    /* border: 2px solid red; */
+    display: flex;
+    /* float: left; */
+}
+label , .choose-radio-label{
+    width: 20%;
+    /* border: 2px solid red; */
+}
+.choose-radio-label{
+    width: 20%;
+    /* border: 2px solid red; */
+}
+input[type="radio"]{
+    width: 20px;
+    /* border:2px solid red; */
+    /* background-color: red; */
+}
+input[type="radio"]+label{
+    width: 50px;
+}
+input , select , textarea{
+    width: 60%;
+    padding: 10px;
+    background-color: rgba(232, 231, 231, 0.642);
+    border: 0;
+}
+
+input[type="submit"]{
+    border: 0;
+    background-color: darkcyan;
+    color: #fff;
+    width: 20%;
+    padding: 10px 5px;
+    margin-left:60% ;
+}
+
