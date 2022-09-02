@@ -35,17 +35,25 @@ let x = 1 , y =2 ;
 
  ///////////////////////////////////Copy object in two ways ?!
 
+let obj = {
+  name:"Mahmoud" ,
+  age:27
+}
 
+let obj1 = Object.assign(obj,obj)
 
+console.log(obj1);
+
+let obj2 = {...obj}
+// console.log(` myOject ==>  ${obj2}`);
+console.log(obj2);
 
  ///////////////////////////////////////////destruct and console object 
 
 
 
-
-
-
-
+let {name , age}=obj
+console.log(`${name} , ${age}`);
 
 
 
@@ -101,7 +109,9 @@ const testStartWithAORM = Fruits.filter((element)=>{
 console.log(testStartWithAORM);
 
 const showAllFruits = Fruits.map((element)=>{
-  return `\n\tI Like ${element}\n\t`
+  return `  I Like ${element}
+
+  `
 })
 console.log(...showAllFruits);
 
