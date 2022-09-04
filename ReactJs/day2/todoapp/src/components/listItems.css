@@ -1,0 +1,54 @@
+.listItem-parent{
+    /* border: 2px solid red; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.header__list{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+.taskTitle{
+    width: 500px;
+    /* border: .5px solid black; */
+    border-radius:5px ;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    background-color: aqua;
+    color:aliceblue;
+}
+.taskAction{
+    width:90px;
+    border: 2px solid;
+    height: 100%;
+    background-color: greenyellow;
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+}
+.taskAction.deletAction{
+    background-color: red;
+}
+.taskTitle.taskAdded{
+    background-color: black;
+}
+.no-tasks{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(195, 87, 87, 0.26);
+    color: #fff;
+    margin-top: 20px;
+}
+.lengthTasks{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
