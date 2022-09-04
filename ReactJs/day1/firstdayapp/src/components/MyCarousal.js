@@ -8,7 +8,7 @@ import img3 from '../photos/img3.jpeg'
 export default class MyCarousal extends Component {
   render() {
     return (
-      <Carousel>
+      <Carousel className='container height-5'>
       <Carousel.Item>
         <img
           className="d-block w-100"

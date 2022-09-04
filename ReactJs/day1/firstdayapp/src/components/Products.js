@@ -6,7 +6,14 @@ export default class Products extends Component {
     return (
       <>
       
-      <ProductCard/>
+      <div className='container mx-auto my-5 row d-flex flex-row justify-content-between'>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+      </div>
       
       
       </>
